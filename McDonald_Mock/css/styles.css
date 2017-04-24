@@ -1,0 +1,111 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	font-family: helvetica, sans-serif; 	
+}
+
+h1{
+	font-family: 'Bevan', cursive;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+#navagation-bar{
+	background-color: rgba(0,0,0,0.65);
+	border-radius: 0;
+	border: 0; 
+	box-shadow: 2px 2px 2px #888888;
+}
+
+#logo-img{
+	background: url('../images/mcdonalds-128.png') no-repeat, url('../images/red.jpeg') no-repeat;
+	width: 125px;
+	height: 125px;
+	margin: 10px, 15px, 10px, 0;
+	border-radius: 10px;
+}
+.navbar .navbar-collapse {
+  	text-align: center;	
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  	color: white;
+}
+
+.row{
+	margin-left: 200px; 
+}
+.row div{
+	margin: 26px;
+}
+.row #toright{
+	font-size: 13px;
+	float: right;
+}
+#toright span{
+	padding-right: 10px;
+	color: #000000;
+}
+.row #toleft{
+	font-size: 13px;
+	float: left;
+}
+#toleft span{
+	padding-right: 10px;
+	color: #000000;
+}
+#toleft a, #toright a{
+	color: #000000;
+	opacity: 1;
+}
+.panel-footer{
+	opacity: 0.5;
+}
+
+.row a:hover{
+	opacity: 0.75;
+}
+
+#video-holder{
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+
+@media (min-width: 1201px) {
+	body{
+		background: url('../images/macbackground1200-900.jpeg');
+		background-size: 100%;
+	}
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+	body{
+		background: url('../images/macbackground1200-900.jpeg');
+		background-size: 100%;
+	}
+}
+@media (min-width: 769px) and (max-width: 992px) {
+	body{
+		background: url('../images/macbackground1200-900.jpeg') no-repeat, url('../images/492D22.png');
+		background-size: 100%;
+	}
+	.row{
+		margin-left: 270px;
+	}
+}
+
+@media (max-width: 768px) {
+	body{
+		background: url('../images/macbackground1200-900.jpeg') no-repeat, url('../images/492D22.png');
+		background-size: 100%;
+	}
+	h1{
+		font-size: 30px;
+		margin-top: 100px;
+	}
+	.navbar-brand{
+		height: 80px;
+	}
+}
